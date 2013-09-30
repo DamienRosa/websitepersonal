@@ -13,10 +13,13 @@ websitepersonal
  - Projects more interesting
 
  Typografy
--
+- Novecento wide
 
 
 Colors
 - Black (or dark grey) with texture
 - with
 - mist between Green and Blue (cores preferidas)
+
+- green light: (21, 168, 160)
+- green Dark: (1, 56, 48);
