@@ -7,6 +7,13 @@
   font-style: normal;
 }
 
+@font-face{
+  font-family: 'Capsuula';
+  src: url('../fonts/Capsuula.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -38,7 +45,6 @@ header img{
   margin: 0;
   padding: 2.5px;
 }
-
 /* Menu */
 header ul{
   padding: 0;
@@ -61,7 +67,30 @@ header a{
   font-family:'Novecento';
   color: white;
 }
-header a:hover{
+
+#inicial_page{
+  background-color: darkgrey;
+}
+
+#intro{
+  font-family: 'Capsuula';
+  font-size: 82px;
+}
+
+#intro h1{
   color: rgb(1, 56, 48);
 }
 
+#intro p{
+  color: rgb(21, 168, 160);
+}
+
+
+#right_side>img{
+  width: 100%;
+}
+
+
+footer{
+  background-color: black;
+}
