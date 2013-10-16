@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+@font-face{
+  font-family: 'Novecento';
+  src: url('../fonts/Synthview - Novecentowide-Medium.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Capsuula';
+  src: url('../fonts/Capsuula.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  vertical-align:baseline;
+  background:transparent;
+} 
+
+h3, p, h1{
+  font-family: 'Capsuula';
+}
+
+header, footer{
+  background-color: #174C5B;
+}
+
+
+/* logo */
+header img{
+  width: 7%;
+  height: auto;
+  float: left;
+  margin: 0;
+  padding: 2.5px;
+}
+/* Menu */
+header ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+header li{
+  float: left;
+  display: inline;
+  padding: 22px;
+}
+
+
+header li:hover{
+  background-color: #15a8a0;
+  transition: all 0.6s ease;
+}
+
+header a{
+  text-decoration: none;
+  display: block;
+  font-family:'Novecento';
+  color: white;
+}
+
+
+
+#right_side>img{
+  width: 100%;
+}
+#right_side ul, #choose_language ul{
+  list-style-type: none;
+}
+#right_side ul{
+  text-align: center;
+}
+#right_side li, #choose_language li{
+  display: inline;
+  padding-left: 5px;
+}
+#choose_language h3{
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.ajusting_image{
+  width: 7%;
+}
+
+.container{
+  background-color: #477D8C;
+}
+
+.container section{
+  border-top: 2px solid black;
+}
+
+#intro{
+  padding-top: 10px;
+  font-size: 82px;
+}

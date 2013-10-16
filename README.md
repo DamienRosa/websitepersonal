@@ -21,5 +21,13 @@ Colors
 - white
 - mist between Green and Blue (cores preferidas)
 
-- green light: (21, 168, 160)
-- green Dark: (1, 56, 48);
+- green scale
+	- #477D8C fundo
+	- #516996 azul
+	- #4C9A79 mais claro
+	- #174C5B escuro
+
+	- #15a8a0 top 
+
+  http://colorschemedesigner.com/#3351TfLsIw0w0
+
