@@ -14,6 +14,7 @@ websitepersonal
 
  Typografy
 - Novecento wide
+- Capsuula
 
 
 Colors
