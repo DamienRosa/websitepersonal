@@ -1,13 +1,13 @@
 websitepersonal
 ===============
- -> use putty & sqlite3 (para 3 linguagens pt/en/fr)
+ ->  3 linguagens pt/en/fr
  -> fazer um cv com o mesmo design que o website e colocá-lo em pdf para poder fazer download
 
  -> foto minha com os logos em baixo : Git, Facebook, Linkdin, twitter, g+, skype
 
  Menu
  - About Me
- - Profile (include traveling, address, name, so on)
+ - Profile (include traveling, address, name, languages)
  - Education 
  - skills (with skills level)
  - Projects more interesting
@@ -27,7 +27,6 @@ Colors
 	- #516996 azul
 	- #4C9A79 mais claro
 	- #174C5B escuro
-
 	- #15a8a0 top 
 
   http://colorschemedesigner.com/#3351TfLsIw0w0
