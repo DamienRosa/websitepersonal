@@ -29,13 +29,8 @@ time, mark, audio, video {
   padding:0;
   border:0;
   outline:0;
-  vertical-align:baseline;
   background:transparent;
 } 
-
-body{
-  background-image: url('../images/back.jpg');
-}
 
 p, h1, h2, h3{
   font-family: 'Capsuula';
@@ -43,6 +38,7 @@ p, h1, h2, h3{
 
 h1{
   font-size: 200%;
+  color: #174C5B;
 }
 
 .quotes{
@@ -55,39 +51,43 @@ header, footer{
   background-color: #174C5B;
 }
 
+header{
+  width:100%;
+  position: fixed;
+  top:0px;
+}
+
 /* logo */
-header img{
-  width: 7%;
+#items_top img{
+  width: 10%;
   height: auto;
   float: left;
   padding: 2.5px;
 }
 
 /* Menu */
-header ul{
+#items_top ul{
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
-header li{
+#items_top li{
   float: left;
   display: inline;
 }
 
-header ul a{
+#items_top ul a{
   text-decoration: none;
   display: block;
   font-family:'Novecento';
   color: white;
   padding: 22px;
- /* margin: 22px;*/
 }
 
-header ul a:hover{
+#items_top ul a:hover{
   transition: all 0.6s ease;
-  background-color: #15a8a0;
+  background-color: #15A8A0;
 }
-
 
 #right_side>img{
   width: 100%;
@@ -102,29 +102,40 @@ header ul a:hover{
   display: inline;
   padding-left: 5px;
 }
+
 #choose_language h1{
   font-weight: bold;
   font-size: 23px;
 }
 
-.ajusting_image{
-  width: 7%;
-}
-
 #choose_language{
   margin-left:auto;
   margin-right:auto;
+  padding-top: 13.5px;
+}
+
+.ajusting_image{
+  width: 15%;
+}
+.ajusting_image_right{
+  width: 7%;
 }
 
 .container{
-  background-color: #477D8C;
+  background-color: #477C8C;
+  color: #90BAC6;
 }
 
 .container section{
   border-top: 2px solid black;
+  padding: 49px;
 }
 
 #intro{
   padding-top: 10px;
   font-size: 82px;
+}
+
+#home{
+  margin-top: 63px;
 }
