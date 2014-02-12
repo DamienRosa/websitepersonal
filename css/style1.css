@@ -1,3 +1,4 @@
+/*====== Font ======*/
 @charset "utf-8";
 
 @font-face{
@@ -14,6 +15,7 @@
   font-style: normal;
 }
 
+/* ===== General =====*/
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -30,21 +32,13 @@ time, mark, audio, video {
   border:0;
   outline:0;
   background:transparent;
-} 
+}
 
 p, h1, h2, h3{
   font-family: 'Capsuula';
 }
 
-h1{
-  font-size: 200%;
-  color: #174C5B;
-}
-
-.quotes{
-  font-size: 50%;
-}
-
+/*====== Header & Footer ======*/
 header, footer{
   margin: 0;
   padding: 0;
@@ -52,38 +46,45 @@ header, footer{
 }
 
 header{
-  width:100%;
   position: fixed;
+  width:100%;
   top:0px;
 }
 
-/* logo */
+.ajusting_flags{
+  width: 23%;
+}
+
+footer{
+  border-top: 2px solid black;
+}
+
+/*====== Logo ======*/
 #items_top img{
-  width: 10%;
+  width: 8%;
   height: auto;
   float: left;
   padding: 2.5px;
 }
 
-/* Menu */
+/*====== Menu ======*/
 #items_top ul{
   padding: 0;
   margin: 0;
   list-style-type: none;
+  border-right: 2px solid black; 
 }
 #items_top li{
   float: left;
   display: inline;
 }
-
 #items_top ul a{
   text-decoration: none;
   display: block;
   font-family:'Novecento';
   color: white;
-  padding: 22px;
+  padding: 19px;
 }
-
 #items_top ul a:hover{
   transition: all 0.6s ease;
   background-color: #15A8A0;
@@ -92,20 +93,15 @@ header{
 #right_side>img{
   width: 100%;
 }
-#right_side ul, #choose_language ul{
-  list-style-type: none;
-}
 #right_side ul{
   text-align: center;
+}
+#right_side ul, #choose_language ul{
+  list-style-type: none;
 }
 #right_side li, #choose_language li{
   display: inline;
   padding-left: 5px;
-}
-
-#choose_language h1{
-  font-weight: bold;
-  font-size: 23px;
 }
 
 #choose_language{
@@ -114,28 +110,58 @@ header{
   padding-top: 13.5px;
 }
 
-.ajusting_image{
-  width: 15%;
-}
 .ajusting_image_right{
-  width: 7%;
+  width: 8%;
 }
 
-.container{
+/*====== Diffence in Sections ======*/
+.dark{
   background-color: #477C8C;
-  color: #90BAC6;
+  color: white;
+}
+.light{
+  background-color: #90BAC6;
+  color: black;
 }
 
+/*====== Container ======*/
 .container section{
   border-top: 2px solid black;
   padding: 49px;
+}
+.container section h1{
+  font-size: 250%;
+  text-align: center;
+  border-bottom: 2px solid #174C5B;
+  color: #174C5B;
+}
+
+.container section p{
+  font-size: 115%;
+}
+
+/*====== Home ======*/
+#home{
+  margin-top: 57px;
 }
 
 #intro{
   padding-top: 10px;
   font-size: 82px;
+  text-align: center;
 }
 
-#home{
-  margin-top: 63px;
+#quotes{
+  font-size: 50%;
+  text-align: center;
+}
+
+/*====== About Me ======*/
+#about_me p{
+  text-align: justify;
+}
+
+/*====== Home ======*/
+#profile img{
+  width: 25%;
 }
