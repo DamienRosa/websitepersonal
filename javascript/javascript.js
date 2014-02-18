@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
-
 	/*========= easeoutQuad function ==========*/
 	$.easing.easeoutQuad = 	function (x, t, b, c, d) {
 		if ((t/=d/2) < 1) return c/2*t*t*t*t + b;
@@ -12,7 +11,7 @@ $(document).ready(function(){
 	function fullPageSection(){
 		var vecSection = document.querySelectorAll('section>section');
 		for (var i = vecSection.length - 1; i >= 0; i--) {
-			$(vecSection[i]).height($(window).height()-159);
+			$(vecSection[i]).height($(window).height()-155);
 		};
 	}
 

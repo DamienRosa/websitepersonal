@@ -34,8 +34,12 @@ time, mark, audio, video {
   background:transparent;
 }
 
-p, h1, h2, h3{
+p, h1, h2, h3, table, form{
   font-family: 'Capsuula';
+}
+
+.border{
+  border-left: 1px solid black;
 }
 
 /*====== Header & Footer ======*/
@@ -46,9 +50,11 @@ header, footer{
 }
 
 header{
+  z-index: 1;
   position: fixed;
   width:100%;
   top:0px;
+  box-shadow: 0px 1.5px 25px black;
 }
 
 .ajusting_flags{
@@ -56,7 +62,6 @@ header{
 }
 
 footer{
-  border-top: 2px solid black;
 }
 
 /*====== Logo ======*/
@@ -90,7 +95,23 @@ footer{
   background-color: #15A8A0;
 }
 
-#right_side>img{
+#right_side>div{
+  
+  position: relative;
+  top: 0;
+}
+#changed{
+  position: absolute;
+  opacity: 1;
+  transition: opacity 0s 0.1s;
+}
+
+#changed:hover{
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+#right_side>div img{
   width: 100%;
 }
 #right_side ul{
@@ -126,7 +147,6 @@ footer{
 
 /*====== Container ======*/
 .container section{
-  border-top: 2px solid black;
   padding: 49px;
 }
 .container section h1{
@@ -136,7 +156,7 @@ footer{
   color: #174C5B;
 }
 
-.container section p{
+.container section p, table{
   font-size: 115%;
 }
 
@@ -145,14 +165,19 @@ footer{
   margin-top: 57px;
 }
 
-#intro{
+#intro h1{
   padding-top: 10px;
-  font-size: 82px;
+  font-size: 225px;
+  text-align: center;
+}
+
+#intro{
+  font-size: 70px;
   text-align: center;
 }
 
 #quotes{
-  font-size: 50%;
+  font-size: 40px;
   text-align: center;
 }
 
@@ -161,7 +186,101 @@ footer{
   text-align: justify;
 }
 
-/*====== Home ======*/
+/*====== Profile ======*/
+#profile{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
 #profile img{
-  width: 25%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#profile table{
+  padding-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 150%;
+}
+
+.tab{
+  padding-left: 1.5em;
+}
+.border{
+  padding-left: 5px;
+  border-left: 2px solid #174C5B;
+}
+
+.button p{
+  margin-top: 40px;
+}
+
+.button{
+  text-align: center;
+}
+
+.button a, .button input{
+  padding: 10px 20px 10px 20px;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  background-color: #477C8C;
+}
+.button a:hover, .button input:hover{
+  color: #174C5B;
+  border: 1px solid #90BAC6;
+  text-decoration: none;
+  background-color: #90BAC6;
+}
+
+/*====== Skills ======*/
+#skills{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#skills ul{
+  list-style-type: none;
+}
+#skills li{
+  padding: 0px 40px 0px 40px;
+  float: left;
+  display: inline;
+}
+
+#skills img:hover{
+  opacity: 0.2;
+  background-color: #174C5B;
+}
+
+/*====== Contacts =====*/
+.contact_form{
+  font-size: 125%;
+}
+
+.button input[type=submit]{
+  font-size: 100%;
+  font-family: 'Capsuula'; 
+}
+
+.input_box input{
+  border: none;
+  background-color: #90BAC6;
+  width: 250px;
+  height: 30px;
+  padding: 5px 10px;
+  font-family: 'Capsuula';
+  font-size: 100%;
+}
+
+.textarea_box textarea{
+  border: none;
+  background-color: #90BAC6;
+  width: 700px;
+  font-family: 'Capsuula';
+  font-size: 100%;
+  padding: 5px 10px;
 }

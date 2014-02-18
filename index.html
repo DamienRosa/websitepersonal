@@ -3,6 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>Hey! I'm Damien Rosa</title>
+		<link rel="shortcut icon" href="http://coloredwebdesign.com/wp-content/uploads/2012/02/person-icon.png">
 		<link rel="stylesheet" type="text/css" href="css/960_12_col.css">
 		<link rel="stylesheet" type="text/css" href="css/style1.css">
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
@@ -11,7 +12,7 @@
 	</head>
 	<body>
 		<header>
-			<section class="container_12">
+			<div class="container_12">
 				<div id="items_top" class="grid_10">
 					<a id='logo' href="#home" title="Home"><img src="images/logos/logo_me.png"></a>
 					<ul id="menu_top">
@@ -30,24 +31,27 @@
 						<li><a title="Website in English" href="#"><img class="ajusting_flags" src="images/inglaterra.png"></a></li>
 					</ul>
 				</div>
-			</section>
+			</div>
 		</header>
 		<section class="container">
 			<section id="home" class="dark">
 				<div class="container_12">
 					<div id="intro" class="grid_6">
 						<h1>Hey!</h1>
-						<p id="quotes">I'm Damien Rosa</p>
+						<p>I'm Damien Rosa</p>
 						<p id="quotes"><i>"Where focus goes, energy flows"</i> Tony Robbins</p>
 					</div>
 					<div id="right_side" class="grid_6">
-						<img src="images/me.png">
+						<div>
+							<img id="changed" src="images/me.png">
+							<img src="images/me_2.jpg">
+						</div>
 						<ul>
 							<li><a title="Facebook" href="https://www.facebook.com/damien.rosa.7" target="_blank"><img class="ajusting_image_right" src="images/logos/facebook_icon.png" /></a></li>
 							<li><a title="LinkedIn" href="http://lnkd.in/3n2sEA" target="_blank"><img class="ajusting_image_right" src="images/logos/linkedin.png"></a></li>
 							<li><a title="Twitter" href="https://twitter.com/DamienRosa" target="_blank"><img class="ajusting_image_right" src="images/logos/twitter-icon.png"></a></li>
 							<li><a title="GooglePlus" href="https://plus.google.com/u/0/+DamienRosa/about" target="_blank"><img class="ajusting_image_right" src="images/logos/Google.png"></a></li>
-							<li><a title="GitHub" href="https://github.com/DamienRosa" target="_blank"><img class="ajusting_image_right" src="images/logos/git-icon.png"></a></li>
+							<li><a title="GitHub" href="https://github.com/DamienRosa" target="_blank"><img class="ajusting_image_right" src="images/logos/github.png"></a></li>
 						</ul>
 					</div>
  				</div>
@@ -56,8 +60,8 @@
 				<div class="container_12">
 					<h1>ABOUT ME</h1>
 					<br/>
-					<p>Olá! Chamo-me <b>Damien Rosa</b>, tenho 22 anos e sou estudante do curso de Engenharia Informática e Computação, na <i>muy nobre</i> Faculdade de Engenharia – Universidade do Porto.</p> <br/>
-					<p>A tecnologia desde cedo faz parte da minha vida. Sempre tive vontade de aprender mais sobre o mundo tecnológico e ser o <i>“gajo dos computadores”</i> ao olhar dos mais inocentes. Considero que seja <b>versátil, competente, hands-on</b> e apreciador de um <b>ambiente familiar, organizado e de entreajuda</b>.</p> <br/>
+					<p>Olá! Chamo-me <b>Damien Rosa</b>, tenho 22 anos e sou estudante do curso de Engenharia Informática e Computação, da <i>muy nobre</i> Faculdade de Engenharia – Universidade do Porto.</p> <br/>
+					<p>A tecnologia desde cedo faz parte da minha vida. Sempre tive vontade de aprender mais sobre o mundo tecnológico e ser o <i>“gajo dos computadores”</i>. Considero que seja <b>versátil, competente, hands-on</b> e apreciador de um <b>ambiente familiar, organizado e de entreajuda</b>.</p> <br/>
 					<p>O meu primeiro contacto com a natureza das linguagens e ferramentas tecnológicas foi no secundário em que pude interagir com PASCAL, C++, Visual Basic , MySQL e Joomla. Contando também, com toda a noção de Programação Orientada a Objetos e criação de bases de dados. Com a entrada para a faculdade, em que passaram 5 anos que me trouxeram inúmeras experiências e contactos com novas linguagens, novos paradigmas e arquiteturas.</p> <br/>
 					<p>No entanto, ao longo do tempo, fui descobrindo que a informática não era a minha única praia. As artes foram, a pouco e pouco fazendo parte do quotidiano. Aprendi, por vontade própria, a tocar viola, revelando-me perante a música e fazendo parte de várias equipas de animação em pequenos grupos em que fui ingressando. Mais recentemente, descobri o mundo do <i><b>design</b></i>. Para dar ênfase a este gosto, tornei-me membro do  DEI - Departamento de Imagem e Comunicação da AEFEUP (Associação de Estudantes da Faculdade de Engenharia – Universidade do Porto), contribuindo com vários cartazes e outras tarefas para eventos da Associação. Para complementar este gosto, no 5º ano escolhi optativas como Fotografia & Cinema e Interação Pessoa-Computador. </p> <br/>
 					<p>No futuro, pretendo investir em <b>User Experience</b> e <b>Mobile Programming</b>. Contradizendo todas estas ideias, a minha vontade também é ter ideias mais presentes em Base de Dados e Testes de Qualidade.</p>
@@ -67,16 +71,25 @@
 			<section id="profile" class="dark">
 				<div class="container_12">
 					<h1>PROFILE</h1>
-					<br/>
-					<img src="images/me_real.png">
-					<p>Name: Damien Guedes Rosa</p>
-					<p>Born: 07-04-1991</p>
-					<p>Email: damien.guedes.r@gmail.com</p>
-					<p>Skype: damien.rosa1</p>
-					<p>Phone: 910274919</p>
-					<p>Phone alt: 926856827</p>
-					<p>Nacionality: Portuguese</p>
-					<p>Languages: Portuguese, French, English</p>
+					<br/><br/>
+					<div class="grid_6">
+						<img src="images/me_real.png">
+					</div>
+					<div class="grid_6">
+						<table>
+							<tr><td><span class="border"><b>Name</b></span></td> <td><span class="tab">Damien Guedes Rosa</span></td></tr>
+							<tr><td><span class="border"><b>Born</b></span></td> <td><span class="tab">07-04-1991</span></td></tr>
+							<tr><td><span class="border"><b>Email</b></span></td> <td><span class="tab">damien.guedes.r@gmail.com</span></td></td></tr>
+							<tr><td><span class="border"><b>Skype</b></span></td> <td><span class="tab">damien.rosa1</span></td></tr>
+							<tr><td><span class="border"><b>Phone</b></span></td> <td><span class="tab">910274919</span></td></td></tr>
+							<tr><td><span class="border"><b>Phone alt.</b></span></td> <td><span class="tab">926856827</span></td></td></tr>
+							<tr><td><span class="border"><b>Nacionality</b></span></td> <td><span class="tab">Portuguese</span></td></td></tr>
+							<tr><td><span class="border"><b>Languages</b></span></td> <td><span class="tab">Portuguese, French, English</span></td></p></tr>
+						</table>
+						<div class="button">
+							<p><a href="#curriculum" onClick = window.open("CurriculumVitae.pdf")>Curriculum</a></p>
+						</div>
+					</div>
 				</div>
 			</section>
 			
@@ -84,15 +97,17 @@
 				<div class="container_12">
 					<h1>EDUCATION</h1>
 					<br/>
-					<p>2009 - Today Faculdade de Engenharia - Universidade do Porto Engenharia Informática e Computação</p>
+					<p>2009-Today - Faculdade de Engenharia - Universidade do Porto Engenharia Informática e Computação</p>
 
-					<p>2013 - Today Member of AEFEUP - Associação de Esdantes da FEUP</p>
-
-					<p>2013 - Participation Agile Marathon From SONAE Challanger</p>
+					<p>2013-Today - Member of AEFEUP - Associação de Esdantes da FEUP</p>
 
 					<p>2012 - Member Staff ENEI 9edition </p>
 
-					<p>2008 - Today Grupo arcoiris - grupo de jovens, membro da animação</p>
+					<p>2005-2009 - Ensino secundário.</p>
+
+					<p>1996-2005 - Ensino primário, 2º e 3º ciclo</p>
+
+					<p>1991 - Nasci 7 de Abril</p>
 				</div>
 			</section>
 
@@ -100,19 +115,33 @@
 				<div class="container_12">
 					<h1>SKILLS</h1>
 					<br/>
+
+					<ul>
+						<li><img src="images/logos/logo_skills/finished/ai-01.png"></li>
+						<li><img src="images/logos/logo_skills/finished/ps-01.png"></li>
+						<li><img src="images/logos/logo_skills/finished/pr-01.png"></li>
+						<li><img src="images/logos/logo_skills/finished/android-01.png"></li>
+						<li><img src="images/logos/logo_skills/finished/cpp.png"></li>
+						<!--<li><img src="images/logos/logo_skills/MySQL.png"></i></li>
+						<li><img src="images/logos/logo_skills/php.png"></li> -->
+					</ul>
+
+				<!--
 					<p>Java</p>
 					<p>C/C++</p>
+					<p>Python</p>
 					<p>Android</p>
 					<p>HTML5</p>
-					<p>Jquery</p>
 					<p>CSS3</p>
+					<p>Jquery</p>
 					<p>JavaScript</p>
 					<p>SQL(sqlite3, mysql, postgreSQL)</p>
 					<p>PHP</p>
 					<p>RubyOnRails</p>
+					<p>Unit Test</p>
 					<p>Adobe Photoshop</p>
 					<p>Adobe Illustrator</p>
-					<p>Adobe Premier</p>
+					<p>Adobe Premier</p>-->
 				</div>
 			</section>
 
@@ -132,9 +161,32 @@
 				<div class="container_12">
 					<h1>CONTACT</h1>
 					<br/>
-					<form>
-						Form for contact
-					</form>
+					<div class="grid_3">
+						<img src="">
+					</div>
+					<div class="grid_9">
+						<form action="" method="post" class="contact_form">
+							<div class="input_box">
+								<label for="contact_name"><strong>Name</strong> *</label><br/>
+								<input type="text" name="name" id="name_form" required>
+							</div>
+							<div class="input_box">
+								<label for="contact_email"><strong>Email</strong> *</label><br/>
+								<input type="email" name="email" id="email_form" required>
+							</div>
+							<div class="input_box">
+								<label for="contact_subjet"><strong>Subjet</strong> *</label><br/>
+								<input type="text" name="subjet" id="subjet_form" required>
+							</div>
+							<div class="textarea_box">
+								<label for="contact_message"><strong>Messagem</strong> *</label><br/>
+								<textarea name="message" id="message_form" cols="84" rows="6" required></textarea>
+							</div>
+							<div class="button">
+								<input type="submit" value="Submit">
+							</div>
+						</form>
+					</div>
 				</div>
 			</section>
 		</section>
