@@ -96,10 +96,10 @@ footer{
 }
 
 #right_side>div{
-  
   position: relative;
   top: 0;
 }
+
 #changed{
   position: absolute;
   opacity: 1;
@@ -192,7 +192,6 @@ footer{
   margin-bottom: auto;
 }
 
-
 #profile img{
   width: 90%;
   margin-left: auto;
@@ -234,6 +233,11 @@ footer{
   border: 1px solid #90BAC6;
   text-decoration: none;
   background-color: #90BAC6;
+}
+
+.num{
+  font-size: 75%;
+  padding-left: 0.5em;
 }
 
 /*====== Skills ======*/
