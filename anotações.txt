@@ -1,9 +1,6 @@
-- mudar o icon para github
 - mudar imagens do home para background
-- tirar linhas pretas entre as secções
 - mudar header para nav e primeira section par header
 - voltar a por o olho normal (jquery)
 - ter atenção ao tamanho das imagens
-- diminuir tamanho dos numeros no profile
 - http://www.w3schools.com/tags/tag_dl.asp
 - http://schema.org/Person

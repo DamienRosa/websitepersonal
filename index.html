@@ -6,9 +6,18 @@
 		<link rel="shortcut icon" href="http://coloredwebdesign.com/wp-content/uploads/2012/02/person-icon.png">
 		<link rel="stylesheet" type="text/css" href="css/960_12_col.css">
 		<link rel="stylesheet" type="text/css" href="css/style1.css">
+		<link rel="stylesheet" type="text/css" href="css/timeline_h.css">
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 		<script type="text/javascript" src="javascript/jquery.scrollTo-min.js"></script>
+		<script type="text/javascript" src="javascript/jquery.timelinr-0.9.54.js"></script>
 		<script type="text/javascript" src="javascript/javascript.js"></script>
+		<script>
+			$(function(){
+				$().timelinr({
+					arrowKeys: 'true'
+				})
+			});
+		</script>
 	</head>
 	<body>
 		<header>
@@ -96,18 +105,54 @@
 			<section id="education" class="light">
 				<div class="container_12">
 					<h1>EDUCATION</h1>
-					<br/>
-					<p>2009-Today - Faculdade de Engenharia - Universidade do Porto Engenharia Informática e Computação</p>
-
-					<p>2013-Today - Member of AEFEUP - Associação de Esdantes da FEUP</p>
-
-					<p>2012 - Member Staff ENEI 9edition </p>
-
-					<p>2005-2009 - Ensino secundário.</p>
-
-					<p>1996-2005 - Ensino primário, 2º e 3º ciclo</p>
-
-					<p>1991 - Nasci 7 de Abril</p>
+				
+					<div id="timeline">
+						<ul id="dates">
+							<li><a href="#1991">1991</a></li>
+							<li><a href="#1996">1996</a></li>
+							<li><a href="#2005">2005</a></li>
+							<li><a href="#2009">2009</a></li>
+							<li><a href="#2012">2012</a></li>
+							<li><a href="#2013">2013</a></li>
+							<li><a href="#2014">2014</a></li>
+						</ul>
+						<ul id="issues">
+							<li id="1991">
+								<h1>1991</h1>
+								<p><strong>7 de Abril</strong> - Dia do <strong>meu nascimento</strong> em França, cidade de Châtenay-Malabry, onde vivi durante os meus primeiros 6 anos.</p>
+							</li>
+							<li id="1996">
+								<h1>1996-2005</h1>
+								<p>Tempo dedicado ao <strong>ensino primário</strong> (escola primária de Vilarandelo), <strong>2º e 3º ciclos,</strong> (escola B 2,3 José Ribeirinha Machado em Vilarandelo).</p>
+							</li>
+							<li id="2005">
+								<h1>2005-2009</h1>
+								<p>Entrada para o <strong>ensino secundário</strong> na escola secundária de Valpaços, sendo nesta escola que frequêntei o curso antigo curso Tecnológico de Informática.</p>
+							</li>
+							<li id="2009">
+								<h1>2009-Today</h1>
+								<p>Inicio de uma nova aventura com o <strong>ingresso na Faculdade de Engenharia - Universidade do Porto (FEUP)</strong>, no curso de <strong>Engenharia Informática e Computação</strong>.</p>
+							</li>
+							<li id="2012">
+								<h1>2012</h1>
+								<p>Membro do Staff no <strong>Encontro Nacional de Estudantes de Engenharia (ENEI) 9edição</strong>, na Faculdade de Engenharia - Universidade do Porto.</p>
+							</li>
+							<li id="2013">
+								<h1>2013 - Today</h1>
+								<p>Entrada para a <strong>Associação de Esdantes da FEUP (AEFEUP)</strong>, como membro do <strong>Departamento de Imagem e Comunicação</strong>, onde contribui com vários cartazes e outras atividades na organização de eventos. Ponto alto foi a organização do Arraial de Engenharia 2013, o melhor Arraial da Academia. </p>
+							</li>
+							<li id="2014">
+								<h1>2014</h1>
+								<p>Membro da equipa de organização do <strong>ciclo de palestras 2014 do AlumniEI</strong>.</p>
+								<br/>
+								<p><strong>Voluntário no centro comunitário FAP no bairro</strong> - <a target="_blank" href="http://www.fap.pt/pt/inicio/social/fap-no-bairro/">Website</a>.</p>
+							</li>
+						</ul>
+						<div id="grad_left"></div>
+						<div id="grad_right"></div>
+						<a href="#" id="next">+</a>
+						<a href="#" id="prev">-</a>
+					</div>
 				</div>
 			</section>
 
@@ -115,33 +160,60 @@
 				<div class="container_12">
 					<h1>SKILLS</h1>
 					<br/>
-
-					<ul>
-						<li><img src="images/logos/logo_skills/finished/ai-01.png"></li>
-						<li><img src="images/logos/logo_skills/finished/ps-01.png"></li>
-						<li><img src="images/logos/logo_skills/finished/pr-01.png"></li>
-						<li><img src="images/logos/logo_skills/finished/android-01.png"></li>
-						<li><img src="images/logos/logo_skills/finished/cpp.png"></li>
-						<!--<li><img src="images/logos/logo_skills/MySQL.png"></i></li>
-						<li><img src="images/logos/logo_skills/php.png"></li> -->
-					</ul>
-
-				<!--
-					<p>Java</p>
-					<p>C/C++</p>
-					<p>Python</p>
-					<p>Android</p>
-					<p>HTML5</p>
-					<p>CSS3</p>
-					<p>Jquery</p>
-					<p>JavaScript</p>
-					<p>SQL(sqlite3, mysql, postgreSQL)</p>
-					<p>PHP</p>
-					<p>RubyOnRails</p>
-					<p>Unit Test</p>
-					<p>Adobe Photoshop</p>
-					<p>Adobe Illustrator</p>
-					<p>Adobe Premier</p>-->
+					<div>
+						<div class="skill grid_3">
+							<img src="images/logos/logo_skills/finished/ai-01.png">
+							<div class="text">Adobe Illustrator</div>
+						</div>
+						<div class="skill grid_3">
+							<img src="images/logos/logo_skills/finished/ps-01.png">
+							<div class="text">Adobe Photoshop</div>
+						</div>
+						<div class="skill grid_3">
+							<img src="images/logos/logo_skills/finished/android-01.png">
+							<div class="text">Android</div>
+						</div>
+						<div class="skill grid_3">
+							<img src="images/logos/logo_skills/finished/cpp.png">
+							<div class="text">C/C++</div>
+						</div>
+					</div>
+					<div class="skills_row">
+						<div class="skill grid_3">
+							<img src="images/logos/logo_skills/finished/java.png">
+							<div class="text">Java</div>
+						</div>
+						<div class="skill grid_3">
+							<img src="images/logos/logo_skills/finished/python.png">
+							<div class="text">Python</div>
+						</div>
+						<div class="skill grid_3">
+							<img src="images/logos/logo_skills/finished/html.png">
+							<div class="text">HTML 5</div>
+						</div>
+						<div class="skill grid_3">
+							<img src="images/logos/logo_skills/finished/css.png">
+							<div class="text">CSS 3</div>
+						</div>
+					</div>
+					<div class="skills_row">
+						<div class="skill grid_3">
+							<img src="images/logos/logo_skills/finished/javascript.png">
+							<div class="text">JavaScript / Jquery</div>
+						</div>
+						<div class="skill grid_3">
+							<img src="images/logos/logo_skills/finished/php.png">
+							<div class="text">PHP</div>
+						</div>
+						<div class="skill grid_3">
+							<img src="images/logos/logo_skills/finished/rails.png">
+							<div class="text">Ruby on Rails</div>
+						</div>
+						<div class="skill grid_3">
+							<img src="images/logos/logo_skills/finished/sql.png">
+							<div class="text">SQL</div>
+						</div>
+					</div>
 				</div>
 			</section>
 
