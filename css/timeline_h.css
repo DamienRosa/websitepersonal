@@ -24,7 +24,7 @@
 		overflow: hidden;
 		margin: 100px auto;
 		position: relative;
-		background: url('../images/dot.gif') left 45px repeat-x;
+		background: url('../images/dot.png') left 45px repeat-x;
 	}
 		#dates {
 			width: 800px;

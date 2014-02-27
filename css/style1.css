@@ -70,6 +70,10 @@ section{
 }
 
 footer{
+  color: white;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  font-family: 'Capsuula';
 }
 
 /*====== Logo ======*/
@@ -266,13 +270,21 @@ footer{
 
 .skill{
   position: relative;
-  opacity: 1;
-  transition: 1s ease;
+ 
+}
+
+.skill img{
+   opacity: 1.0;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
 }
 
 .skill img:hover{
   opacity: 0.05;
-  transition: all 0.6s ease;
+  transition: opacity 0.6s ease-in-out;
+  -moz-transition: opacity 0.6s ease-in-out;
+  -webkit-transition: opacity 0.6s ease-in-out;
 }
 
 .skill img{
@@ -289,6 +301,33 @@ footer{
   font-family: 'Capsuula';
   text-shadow: 1px 1px 1px rgba(0,0,0,5.2);
 }
+
+/* ====== PortFolio ====== */
+
+/*PIC*/
+.pic {
+  overflow: hidden;
+  float: left;
+
+}
+
+/*VERTPAN*/
+.vertpan img {
+  opacity: 1;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: opacity 1s, margin 1s ease;
+  margin-bottom: -65px;
+}
+
+.vertpan img:hover {
+  margin-top: -62px;
+  margin-bottom: 62px;
+  opacity: 0.2;
+}
+
 
 /*====== Contacts =====*/
 .contact_form{
@@ -317,4 +356,19 @@ footer{
   font-family: 'Capsuula';
   font-size: 100%;
   padding: 5px 10px;
+}
+
+#leftsidecontact{
+  text-align: center;
+  font-size: 150%;
+  color: #174C5B;
+  padding-top: 50px;
+}
+
+#leftsidecontact img{
+  width: 50%;
+}
+
+#leftsidecontact:hover{
+  color: white;
 }
